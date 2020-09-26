@@ -7,7 +7,7 @@
     "display":"standalone",
     "icons": [{
         "src": "path.resolve('/icons/icon-512x512.png')",
-        "sizes": "[96, 128, 192, 256, 384, 512]",
+        "sizes": "[72, 96, 128, 144, 152, 292, 384, 512]",
         "destination": "path.join('assets', 'icons')"
       }]
 }
