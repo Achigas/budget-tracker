@@ -1,5 +1,5 @@
-# MyLingual
-An interactive social network that connects people learning the same languages!
+# Budget-Tracker
+A budget tracking application that uses offline functionality.
 
 ## Table of contents
 * [General info](#general-info)
@@ -12,19 +12,24 @@ An interactive social network that connects people learning the same languages!
 * [Contact](#contact)
 
 ## General info
+This application allows you to track your transactions and help plan a budget. The data that is entered offline will be cached and uploaded when a connection is established.
 
 ## Deployed Link
 [Budget Tracker](https://powerful-badlands-42229.herokuapp.com/)
 
 ## Screenshots
-![]()
+![Budget Tracker Screenshot](./public/images/budget-tracker.png)
 
 ## Setup
 * Clone GitHub repository 
 * run npm install
+* run npm i mongoose
+* run npm i compression
+* run npm i express
+* run npm i lite-server
+* run npm i morgan
 
 * Run 'npm start' to enter the application.
-    * User will need Insomnia Core to access the routes
 
 ## Code and Technologies
 * HTML 
@@ -33,16 +38,16 @@ An interactive social network that connects people learning the same languages!
 * JavaScript
 * Node.js
 * Express.js
-* Handlebars.js
-* Express-session
-* Bcrypt
+
+* Indexed DB for offline
+* Social Worker installed and activated
 
 ## Licenses
 * MIT license
 * ISC
 
 ## Inspiration
-Learn to cache project data for offline usability.
+Learn to cache project data for offline usability. The code base was developed by another user and cloned. Offline functionality was developed by Alex Chigas. 
 
 ## Contact
 * Alex Chigas (Achigas)
